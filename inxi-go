@@ -1,4 +1,4 @@
 #!/bin/bash
 
-inxi -Fxxrza > "$HOME/Desktop/bla.txt"
+inxi -Fxxrza -c 0 > "$HOME/Desktop/bla.txt"
 xdg-open "$HOME/Desktop/bla.txt"
